@@ -1,0 +1,577 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7b38aff3-a50e-41c2-b233-926f511da0de")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 144.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df6d671a-492d-42e8-a39d-56e909eeba7d")
+	)
+	(bus
+		(pts
+			(xy 144.78 109.22) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a60976-21a4-498f-bda9-2093ba693449")
+	)
+	(bus
+		(pts
+			(xy 135.89 63.5) (xy 153.67 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528b4e83-d19e-4615-8cfc-6e83fab75475")
+	)
+	(bus
+		(pts
+			(xy 135.89 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f33e4e0-c5a1-4108-b796-cdbc6f3bc134")
+	)
+	(bus
+		(pts
+			(xy 135.89 118.11) (xy 153.67 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f63bc5-acd3-417d-9603-af70fe4e247e")
+	)
+	(bus
+		(pts
+			(xy 144.78 88.9) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efef05a-4493-49fd-89c3-1e22faa6276d")
+	)
+	(bus
+		(pts
+			(xy 135.89 80.01) (xy 153.67 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880728d2-de03-42dd-9c18-c97f1a876102")
+	)
+	(bus
+		(pts
+			(xy 135.89 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a172ff3f-5233-48cd-bedc-5c72ccb27912")
+	)
+	(wire
+		(pts
+			(xy 81.28 135.89) (xy 86.36 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb56878-762a-4609-ba14-2d4da86395df")
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 81.28 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e9c8dff-0883-4678-8f86-b0728ad7f505")
+		(property "Reference" "#PWR031"
+			(at 85.09 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 77.47 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 81.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82947c47-73ab-4e4a-97f8-14d44a65f433")
+		)
+		(instances
+			(project ""
+				(path "/7b38aff3-a50e-41c2-b233-926f511da0de"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 73.66)
+		(size 54.61 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f451b19-002d-4edf-a308-e17ef28fe4fa")
+		(property "Sheetname" "CurrentSensing"
+			(at 153.67 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VoltAirCurrentSensing.kicad_sch"
+			(at 153.67 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{CurrLine01 CurrLine02 CurrLine03 CurrLine04}" input
+			(at 153.67 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "183902d5-0a34-4369-b76e-c0f5d1fa1550")
+		)
+		(pin "{INLine01 INLine02 INLine03 INLine04}" input
+			(at 153.67 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0cd164a4-59da-4018-94db-40b843c76cc0")
+		)
+		(pin "{OUTLine01 OUTLine02 OUTLine03 OUTLine04}" input
+			(at 153.67 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66f59989-ddf9-40e4-9681-bac469cfde5e")
+		)
+		(instances
+			(project "VoltAir"
+				(path "/7b38aff3-a50e-41c2-b233-926f511da0de"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 58.42)
+		(size 49.53 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98aeace7-9d03-4922-947a-5e573149b06d")
+		(property "Sheetname" "MCU"
+			(at 86.36 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VoltAirMCU.kicad_sch"
+			(at 86.36 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MTDI MTCK MTMS MTDO}" input
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c02f83d-a2da-4367-9183-9fc414708bb9")
+		)
+		(pin "{CurrLine01 CurrLine02 CurrLine03 CurrLine04}" input
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07b53c44-d966-4bf1-8dac-01eb51812fe2")
+		)
+		(pin "{INLine01 INLine02 INLine03 INLine04}" input
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f7e2f7e-1cc6-40ac-8c5d-ac18aaa9aa41")
+		)
+		(instances
+			(project "VoltAir"
+				(path "/7b38aff3-a50e-41c2-b233-926f511da0de"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 58.42)
+		(size 54.61 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c44c5f5-1816-453f-82ea-411cd54c2640")
+		(property "Sheetname" "JTAG"
+			(at 153.67 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VoltAirJTAG.kicad_sch"
+			(at 153.67 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MTDI MTCK MTMS MTDO}" input
+			(at 153.67 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73b7f518-57cc-45b4-89c1-806ce1663f01")
+		)
+		(instances
+			(project "VoltAir"
+				(path "/7b38aff3-a50e-41c2-b233-926f511da0de"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 102.87)
+		(size 49.53 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da73774f-c7ed-4c5c-a842-519e7b857bf3")
+		(property "Sheetname" "ExternalPWRConnector"
+			(at 86.36 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VoltAirExternalPWRConnector.kicad_sch"
+			(at 86.36 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{INLine01 INLine02 INLine03 INLine04}" output
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e33ef99b-dfa1-44a0-841e-49c3035cc11c")
+		)
+		(pin "{OUTLine01 OUTLine02 OUTLine03 OUTLine04}" input
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1dd07edd-1392-472b-a78f-2c6b77162670")
+		)
+		(instances
+			(project "VoltAir"
+				(path "/7b38aff3-a50e-41c2-b233-926f511da0de"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 130.81)
+		(size 121.92 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfc1ff30-40e5-4fe7-bdac-1d031b5cd523")
+		(property "Sheetname" "BEC"
+			(at 86.36 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VoltAirBEC.kicad_sch"
+			(at 86.36 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V7 IN" input
+			(at 86.36 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9a586d0-59cc-4b0d-9fb5-b7ecb7153bd5")
+		)
+		(instances
+			(project "VoltAir"
+				(path "/7b38aff3-a50e-41c2-b233-926f511da0de"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
